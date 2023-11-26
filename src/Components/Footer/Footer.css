@@ -1,0 +1,34 @@
+.create-website-montecristo .Contact-information footer {
+    background-color: rgb(14, 1, 1);
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 190px;
+}
+
+.create-website-montecristo .Contact-information .list-contacts a {
+    background-color: #b7b7b700;
+    color: aliceblue;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Contact-information .list-contacts li {
+    height: 30px;
+}
+
+.Contact-information .list-working-hours li {
+    height: 40px;
+    color: aliceblue;
+}
+
+.Contact-information .store-addresses {
+    padding: 0%;
+}
+
+.Contact-information .store-addresses .Nizhnekamsk {
+    width: 100px;
+}

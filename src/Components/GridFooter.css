@@ -1,0 +1,39 @@
+.create-website-montecristo .Contact-information footer {
+    display: grid;
+    grid-template-areas: "l-c l-w-h s-add";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 380px 5fr 10fr;
+}
+
+.Contact-information .list-contacts li {
+    grid-area: l-c;
+}
+
+.Contact-information .list-working-hours li {
+    grid-area: l-w-h;
+}
+
+.Contact-information .store-addresses {
+    grid-area: s-add;
+}
+
+.Contact-information .store-addresses {
+    display: grid;
+    grid-template-areas: "nab-ch nizhn yelab-almet";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 298px 10fr 10fr;
+}
+
+.Contact-information .store-addresses .naberezhnye-chelny {
+    grid-area: nab-ch;
+}
+
+.Contact-information .store-addresses .Nizhnekamsk {
+    grid-area: nizhn;
+}
+
+.Contact-information .store-addresses .yelabuga-almetyevsk {
+    grid-area: yelab-almet;
+}
+
+

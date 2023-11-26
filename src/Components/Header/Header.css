@@ -1,0 +1,14 @@
+.create-website-montecristo .logo {
+    height: 110px;
+    font-size: 110px;
+    font-family: 'Lucida Sans Regular';
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 1, 1);
+}
+
+.create-website-montecristo .string-manufacturers {
+    font-size: 18px;
+    background-color: rgb(139, 22, 22);
+    color: aliceblue;
+}

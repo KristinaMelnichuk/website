@@ -1,0 +1,31 @@
+.navigation-menu {
+    font-size: 21px;
+}
+
+.list-li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 226px;
+    font-family: 'Lucida Sans Regular';
+}
+
+.list-li li {
+    border-left: 1px solid rgb(14, 1, 1);
+    border-bottom: 1px solid #6f2828;
+}
+
+.list-li a {
+    background-color: #b7b7b700;
+    color: rgba(14, 1, 1, 0.814);
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #999492;
+    display: block;
+}
+
+.list-li a:hover {
+    background-color: #6e899c19;
+    border-left: 10px solid rgb(14, 1, 1);
+}
