@@ -1,7 +1,5 @@
 //import for Components
 import './App.css';
-import './Components/GridFooter.css';
-import './Components/GridNavbar.css';
 import Header from './Components/Header/Header.jsx';
 import StringManuf from './Components/Header/StringManuf.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
@@ -25,7 +23,8 @@ function App() {
         <StringManuf />
         <div className='navigation-menu-first'>
           <Navbar />
-          <div className='create-website-montecristo-content'>
+        </div>
+        <div className='create-website-montecristo-content'>
             <Routes>
               <Route path='/hookahs/*' Component={Hookahs}></Route>
               <Route path='/tobacco/*' Component={Tobacco}></Route>
@@ -37,7 +36,6 @@ function App() {
               <Route path='/coal/*' Component={Coal}></Route>
             </Routes>
           </div>
-        </div>
         <Footer />
       </div>
     </BrowserRouter>

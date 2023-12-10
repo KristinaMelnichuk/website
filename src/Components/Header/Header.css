@@ -12,3 +12,11 @@
     background-color: rgb(139, 22, 22);
     color: aliceblue;
 }
+
+.logo {
+    grid-area: header;
+}
+
+.string-manufacturers {
+    grid-area: manufacturers;
+}

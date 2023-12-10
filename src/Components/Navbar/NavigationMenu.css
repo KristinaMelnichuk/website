@@ -1,12 +1,12 @@
 .navigation-menu {
     font-size: 21px;
+    grid-area: nav;
 }
 
 .list-li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    width: 226px;
     font-family: 'Lucida Sans Regular';
 }
 

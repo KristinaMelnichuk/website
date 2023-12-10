@@ -1,1 +1,16 @@
+.create-website-montecristo {
+  grid-template-areas: 
+  "header header"
+  "manufacturers manufacturers"
+  "nav montcontent"
+  "contacts contacts"
+  ;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 0px;
+}
 
+.create-website-montecristo-content {
+  grid-area: montcontent;
+} 
